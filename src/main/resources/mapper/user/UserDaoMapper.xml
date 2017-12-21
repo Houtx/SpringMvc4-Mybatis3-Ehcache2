@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间 是必须的 -->
+<mapper namespace="com.springapp.mvc.user.dao.UsersDao">
+    <select id="getUserPwdByUsername" resultType="java.lang.String" parameterType="java.lang.String" >
+    select pwd
+    from t_sys_user
+    where username = #{Username,jdbcType=VARCHAR}
+  </select>
+</mapper>  
