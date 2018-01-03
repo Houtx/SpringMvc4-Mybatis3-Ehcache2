@@ -32,3 +32,4 @@ src/main/resources/mapper/enterprise/
 src/main/webapp/css/
 target/
 out/
+/out/
