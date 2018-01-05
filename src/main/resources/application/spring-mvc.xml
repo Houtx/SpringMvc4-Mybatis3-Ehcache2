@@ -69,5 +69,6 @@
               <property name="maxInMemorySize" value="40960" />
        </bean>
 
+       <!--不设置缓存可把这边注释掉-->
        <import resource="cache-config.xml"/>
 </beans>
