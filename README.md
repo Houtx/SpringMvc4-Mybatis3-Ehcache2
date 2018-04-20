@@ -8,4 +8,5 @@ SpringMvc4-Mybatis3-Ehcache2快速开发框架
 不定期改进。
 
 2018.01.05 新增对开发工具Eclipse和Idea的支持。
+
 2018.04.20 新增对事物的注解支持。
